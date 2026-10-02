@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Database & SQLite runtime
+*.db
+*.sqlite
+*.sqlite3
+backend/app/data/*.db
+
+# Node & Frontend build
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+.npm/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Citlivá data studenta ze STAGu
+prubeh_studia.pdf
+*.local
+.env
+.env.local
