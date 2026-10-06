@@ -1,0 +1,138 @@
+[
+  {
+    "code": "KIP-BP-01",
+    "title": "Moderní webové rozhraní a systém pro doporučování témat závěrečných prací",
+    "supervisor_name": "doc. RNDr. PaedDr. Hashim Habiballa, PhD., Ph.D.",
+    "description": "Cílem práce je návrh, implementace a ověření softwarového prototypu doporučovacího systému pro výběr témat bakalářských prací na KIP PřF OU podle metodiky Design Science Research (DSR). Systém kombinuje psychologické profilování (RIASEC, kotvy), analýzu sylabů předmětů pomocí TF-IDF a zájmová klíčová slova s transparentním šablonovým zdůvodněním.",
+    "difficulty": 0.65,
+    "keywords": "web, react, fastapi, doporucovani, psychologie, dsr, nlp, algoritmus, ui, ux",
+    "profile_dimensions": {
+      "riasec": { "R": 0.5, "I": 0.85, "A": 0.6, "S": 0.45, "E": 0.4, "C": 0.75 },
+      "career_anchors": { "TF": 0.9, "AU": 0.7 },
+      "problem_solving_style": 0.8,
+      "orientation_type": 0.85,
+      "output_type": 0.95,
+      "supervision_preference": 0.6
+    },
+    "is_active": true
+  },
+  {
+    "code": "KIP-BP-02",
+    "title": "Vývoj multiplatformní mobilní aplikace pro podporu studia a orientaci v kampusu OU",
+    "supervisor_name": "RNDr. Martin Kotyrba, Ph.D.",
+    "description": "Práce se zaměřuje na návrh a realizaci mobilní aplikace v React Native / Flutter pro studenty Ostravské univerzity. Součástí je integrace s univerzitními rozvrhy, mapou budov kampusu na Černé louce a push notifikacemi pro důležité termíny.",
+    "difficulty": 0.5,
+    "keywords": "mobil, android, ios, flutter, react native, kampus, studenti, api, ui",
+    "profile_dimensions": {
+      "riasec": { "R": 0.65, "I": 0.6, "A": 0.75, "S": 0.6, "E": 0.5, "C": 0.65 },
+      "career_anchors": { "TF": 0.85, "SE": 0.5 },
+      "problem_solving_style": 0.65,
+      "orientation_type": 0.7,
+      "output_type": 0.9,
+      "supervision_preference": 0.5
+    },
+    "is_active": true
+  },
+  {
+    "code": "KIP-BP-03",
+    "title": "Klasifikace a analýza časových řad biomedicínských signálů pomocí hlubokých neuronových sítí",
+    "supervisor_name": "doc. Mgr. Jiří Dvorský, Ph.D.",
+    "description": "Aplikace modelů strojového učení (LSTM, Transformer) na detekci anomálií v EKG/EEG záznamech z klinických databází. Zahrnuje předzpracování signálů, filtraci šumu, extrakci spektrálních příznaků a statistické vyhodnocení přesnosti modelů.",
+    "difficulty": 0.85,
+    "keywords": "ai, neuronove site, machine learning, ekg, bioinformatika, python, analyza dat, statistika",
+    "profile_dimensions": {
+      "riasec": { "R": 0.4, "I": 0.95, "A": 0.3, "S": 0.3, "E": 0.3, "C": 0.8 },
+      "career_anchors": { "TF": 0.95, "CH": 0.85 },
+      "problem_solving_style": 0.85,
+      "orientation_type": 0.95,
+      "output_type": 0.6,
+      "supervision_preference": 0.75
+    },
+    "is_active": true
+  },
+  {
+    "code": "KIP-BP-04",
+    "title": "Edukační webová hra pro výuku algoritmizace a základů programování na ZŠ a SŠ",
+    "supervisor_name": "Mgr. Zuzana Václavíková, Ph.D.",
+    "description": "Návrh a implementace gamifikované interaktivní webové aplikace podporující rozvoj informatického myšlení u žáků druhého stupně ZŠ. Práce zahrnuje didaktickou analýzu, vytvoření herních úrovní a pilotní ověření ve výuce.",
+    "difficulty": 0.45,
+    "keywords": "didaktika, edukace, hra, gamifikace, programovani, skola, deti, interaktivni, web",
+    "profile_dimensions": {
+      "riasec": { "R": 0.3, "I": 0.6, "A": 0.85, "S": 0.9, "E": 0.5, "C": 0.45 },
+      "career_anchors": { "SV": 0.9, "TF": 0.6 },
+      "problem_solving_style": 0.75,
+      "orientation_type": 0.25,
+      "output_type": 0.85,
+      "supervision_preference": 0.4
+    },
+    "is_active": true
+  },
+  {
+    "code": "KIP-BP-05",
+    "title": "Bezpečnostní audit a penetrační testování moderních webových rozhraní typu SPA/API",
+    "supervisor_name": "Ing. Miroslav Farana, Ph.D.",
+    "description": "Praktická analýza zranitelností podle OWASP Top 10 ve webových aplikacích architektury Single Page Application komunikujících přes REST a GraphQL API. Implementace automatizovaných bezpečnostních testů a doporučení pro zabezpečení autorizačních tokenů.",
+    "difficulty": 0.75,
+    "keywords": "bezpecnost, security, owasp, penetracni testy, api, jwt, authorization, sit",
+    "profile_dimensions": {
+      "riasec": { "R": 0.7, "I": 0.9, "A": 0.3, "S": 0.35, "E": 0.4, "C": 0.85 },
+      "career_anchors": { "TF": 0.9, "CH": 0.8 },
+      "problem_solving_style": 0.6,
+      "orientation_type": 0.9,
+      "output_type": 0.7,
+      "supervision_preference": 0.7
+    },
+    "is_active": true
+  },
+  {
+    "code": "KIP-BP-06",
+    "title": "Optimalizace indexace a dotazování v rozsáhlých distribuovaných relačních a NoSQL databázích",
+    "supervisor_name": "RNDr. Jan Martinovič, Ph.D.",
+    "description": "Srovnání výkonu, propustnosti a latencí mezi PostgreSQL (včetně sharding nástrojů) a MongoDB/Cassandra při práci s datovými sadami o velikosti desítek milionů záznamů. Tvorba benchmarkových skriptů a profilování exekučních plánů.",
+    "difficulty": 0.7,
+    "keywords": "databaze, sql, postgresql, nosql, velka data, indexy, optimalizace, vykon, sharding",
+    "profile_dimensions": {
+      "riasec": { "R": 0.6, "I": 0.85, "A": 0.25, "S": 0.3, "E": 0.4, "C": 0.9 },
+      "career_anchors": { "TF": 0.95, "AU": 0.6 },
+      "problem_solving_style": 0.5,
+      "orientation_type": 0.95,
+      "output_type": 0.75,
+      "supervision_preference": 0.6
+    },
+    "is_active": true
+  },
+  {
+    "code": "KIP-BP-07",
+    "title": "Detekce objektů a vyhodnocování dopravní situace z kamerových záznamů v reálném čase",
+    "supervisor_name": "doc. RNDr. PaedDr. Hashim Habiballa, PhD., Ph.D.",
+    "description": "Využití konvolučních neuronových sítí rodiny YOLO v kombinaci s OpenCV pro detekci vozidel, chodců a cyklistů z městských kamerových záznamů. Zaměření na optimalizaci běhu na vestavěných zařízeních (Edge AI, Jetson Nano).",
+    "difficulty": 0.8,
+    "keywords": "pocitacove videni, opencv, yolo, edge ai, kamera, doprava, detekce, realny cas, python",
+    "profile_dimensions": {
+      "riasec": { "R": 0.75, "I": 0.9, "A": 0.4, "S": 0.35, "E": 0.4, "C": 0.75 },
+      "career_anchors": { "TF": 0.9, "CH": 0.8 },
+      "problem_solving_style": 0.8,
+      "orientation_type": 0.9,
+      "output_type": 0.85,
+      "supervision_preference": 0.65
+    },
+    "is_active": true
+  },
+  {
+    "code": "KIP-BP-08",
+    "title": "Interaktivní vizualizace a průzkumná analýza geodat Ostravského metropolitního regionu",
+    "supervisor_name": "doc. Mgr. Jiří Dvorský, Ph.D.",
+    "description": "Tvorba webové mapové aplikace pro interaktivní vizualizaci environmentálních dat, kvality ovzduší a demografických trendů v Ostravě a okolí. Využití knihoven Mapbox GL JS / Leaflet, D3.js a GeoJSON struktur.",
+    "difficulty": 0.55,
+    "keywords": "geodata, gis, vizualizace, d3, leaflet, mapa, ostrava, ovzdusi, frontend",
+    "profile_dimensions": {
+      "riasec": { "R": 0.5, "I": 0.75, "A": 0.8, "S": 0.65, "E": 0.5, "C": 0.7 },
+      "career_anchors": { "TF": 0.75, "SV": 0.7 },
+      "problem_solving_style": 0.7,
+      "orientation_type": 0.65,
+      "output_type": 0.9,
+      "supervision_preference": 0.5
+    },
+    "is_active": true
+  }
+]

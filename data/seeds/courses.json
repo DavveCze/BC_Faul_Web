@@ -1,0 +1,62 @@
+[
+  {
+    "code": "KIP/UPR1",
+    "name": "Úvod do programování 1",
+    "syllabus_text": "Základy procedurálního programování v jazyce Python. Datové typy, řídicí struktury (podmínky, cykly), funkce a parametry. Práce se soubory, textovými řetězci a základními datovými strukturami (seznamy, n-tice, slovníky). Algoritmizace jednoduchých úloh a ladění programů.",
+    "credits": 5
+  },
+  {
+    "code": "KIP/UPR2",
+    "name": "Úvod do programování 2",
+    "syllabus_text": "Objektově orientované programování (OOP). Třídy, objekty, zapouzdření, dědičnost a polymorfismus v jazyce C# / Java. Návrhové vzory, práce s výjimkami, generické datové typy, unit testování a základy verzování v Git.",
+    "credits": 5
+  },
+  {
+    "code": "KIP/DAS",
+    "name": "Databázové systémy",
+    "syllabus_text": "Relační model dat, relační algebra a dotazovací jazyk SQL. Návrh databází, konceptuální modelování ER diagramy, funkční závislosti a normální formy (1NF-BCNF). Transakce, ACID vlastnosti, indexace (B-stromy), integritní omezení a základní principy NoSQL databází.",
+    "credits": 5
+  },
+  {
+    "code": "KIP/WEB1",
+    "name": "Tvorba webových stránek",
+    "syllabus_text": "Sémantické HTML5 značkování, CSS3 kaskádové styly, responzivní webový design (Flexbox, CSS Grid). Základy klientského skriptování v JavaScriptu (ES6+), manipulace s DOM, události, přístupnost (a11y) a SEO standardy.",
+    "credits": 4
+  },
+  {
+    "code": "KIP/WEB2",
+    "name": "Vývoj webových aplikací",
+    "syllabus_text": "Moderní frontendové a backendové frameworky. Architektura Single Page Application v Reactu, správa stavu, komponenty a hooks. Tvorba RESTful API a práce s HTTP protokolem, autentizace (JWT), CORS, komunikace s databází a deployment.",
+    "credits": 5
+  },
+  {
+    "code": "KIP/ALG",
+    "name": "Algoritmy a datové struktury",
+    "syllabus_text": "Asymptotická časová a paměťová složitost (Big O notace). Řadicí a vyhledávací algoritmy. Spojové seznamy, stromy, vyvážené stromy (AVL, Red-Black), binární haldy, hashovací tabulky a grafové algoritmy (BFS, DFS, Dijkstra, minimální kostra).",
+    "credits": 6
+  },
+  {
+    "code": "KIP/ZAI",
+    "name": "Základy umělé inteligence",
+    "syllabus_text": "Úvod do inteligentních systémů a strojového učení. Učení s učitelem a bez učitele. Lineární a logistická regrese, rozhodovací stromy, k-NN a úvod do umělých neuronových sítí. Zpracování přirozeného jazyka (NLP), vektorizace textu TF-IDF a metrika kosinové podobnosti.",
+    "credits": 5
+  },
+  {
+    "code": "KIP/BEZ",
+    "name": "Bezpečnost informačních systémů",
+    "syllabus_text": "Kryptografické základy: symetrické a asymetrické šifrování, hashovací funkce, digitální podpisy a PKI infrastruktura. Bezpečnost počítačových sítí, firewally, TLS/SSL, penetrační testování a webové zranitelnosti (OWASP Top 10, SQL injection, XSS, CSRF).",
+    "credits": 4
+  },
+  {
+    "code": "KIP/DID",
+    "name": "Didaktika informatiky a vzdělávací technologie",
+    "syllabus_text": "Metody výuky informatiky a algoritmizace na základních a středních školách. Vývoj informatického myšlení, vzdělávací robotika, blokové programování (Scratch), gamifikace a didaktické aspekty tvorby edukačního softwaru.",
+    "credits": 4
+  },
+  {
+    "code": "KIP/MOB",
+    "name": "Vývoj mobilních aplikací",
+    "syllabus_text": "Architektura a vývoj aplikací pro mobilní operační systémy Android a iOS. Multiplatformní vývoj (Flutter, React Native), životní cyklus komponent a aktivit, lokální perzistence dat (SQLite), využití hardwarových senzorů (GPS, kamera) a publikace do aplikačních obchodů.",
+    "credits": 5
+  }
+]
