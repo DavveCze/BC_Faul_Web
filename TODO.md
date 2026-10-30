@@ -39,13 +39,13 @@ Na základě tvých 9 bodů a screenshotů transformujeme systém z „akademick
 ---
 
 ### Fáze 4: Výsledková stránka, Personifikace & Export
-- [ ] **4.1 Přehledný osobnostní a profesní profil studenta**
+- [x] **4.1 Přehledný osobnostní a profesní profil studenta**
   - Zobrazení orientačního profilu (tvůj typ RIASEC, dominantní kotvy a silné stránky), který studentovi slouží jako samostatná hodnota i bez ohledu na témata.
-- [ ] **4.2 „Doporučení pro tebe“ u Top 3 témat**
+- [x] **4.2 „Doporučení pro tebe“ u Top 3 témat**
   - Proč právě toto téma a jak si ho upravit na míru: konkrétní návrhy, jak téma modifikovat či rozšířit (např. *„Pokud tě baví React, navrhni vedoucímu rozšíření o moderní frontend...“*).
-  - Transparentní a přehledné vysvětlení náročnosti tématu.
-- [ ] **4.3 Export výsledků do PDF / přehledného dokumentu**
-  - Tlačítko pro stažení osobního reportu (doporučená témata, rozpad profilu, tipy pro konzultaci s vedoucím).
+  - Transparentní a přehledné vysvětlení náročnosti tématu a formulace konkrétních otázek na první konzultaci s vedoucím.
+- [x] **4.3 Export výsledků do PDF / přehledného dokumentu**
+  - Specializovaný `@media print` tiskový layout pro A4 rešeršní list pro vedoucího práce s hlavičkou KIP PřF OU bez zbytečných tlačítek a webového balastu.
 
 ### Fáze 5: Admin page
 - [ ] **5.1 Bezpečnost celý admin bude viditelný až po příhlášení ("tajný" endpoint /login)**

@@ -10,3 +10,49 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Profesionální tiskový layout pro A4 rešeršní list */
+@media print {
+  @page {
+    size: A4;
+    margin: 1.5cm;
+  }
+
+  /* Skrytí ovládacích tlačítek a webové navigace */
+  button, 
+  nav, 
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: #0f172a !important;
+    font-size: 10.5pt;
+    line-height: 1.45;
+  }
+
+  /* Zamezení roztržení karet napříč stránkami */
+  .print-avoid-break {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  /* Vynucení viditelnosti konzultačních otázek v tisku */
+  .print-force-show {
+    display: block !important;
+  }
+
+  /* Odstranění zbytečných stínů a rámečků pro ostrý tisk */
+  .shadow-sm,
+  .shadow,
+  .shadow-md {
+    box-shadow: none !important;
+  }
+
+  /* Zachování barev pozadí a grafů v moderních prohlížečích */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
